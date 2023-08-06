@@ -1,0 +1,51 @@
+[
+  {
+    "id": "1",
+    "name": "Shampa Shahriyar",
+    "ratings":4.5,
+    "review": "I want to order something (A perfume) for my mom at BD. Although the delivery area was out of their scope, their support team instantly replied to my query and manged to deliver the product. The best thing I noticed, they informed step by step updated news about the order processing. ",
+    "ratingsCount": 3725,
+    "img": "./img/pic-1.jpg"
+  },
+
+  {
+    "id": "2",
+    "name": "Abedul Hoque Rakib",
+    "ratings": 4,
+    "review": "I have been shopping from chaldal for the past few months and i am loving the experience. Have been shopping from here and i have recommended my relatives too. They are also happy with the service. The prices are comparatively low and the products are genuine. ",
+    "ratingsCount": 3725,
+    "img": "./img/pic-2.jpeg"
+  },
+  {
+    "id": "3",
+    "name": "Ashfia Ahmed",
+    "ratings": 4,
+    "review": "Loved the service! I urgently needed some stuffs and ordered it here and they delivered in less than an hour as promised! Thanks a lot for that.",
+    "ratingsCount": 3725,
+    "img": "./img/pic-3.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Srabon Hasan",
+    "ratings": 4,
+    "review": "Satisfied by their professionalism ! Got my tea bags in time. Didn't have to pay any delivery charge. I can't believe that. Keep it up !",
+    "ratingsCount": 3725,
+    "img": "./img/pic-4.jpg"
+  },
+  {
+    "id": "5",
+    "name": "guava",
+    "ratings": 4,
+    "review": " Loved the service! I urgently needed some stuffs and ordered it here and they delivered in less than an hour as promised! Thanks a lot for that.",
+    "ratingsCount": 3725,
+    "img": "./img/pic-5.jpg"
+  },
+  {
+    "id": "6",
+    "name": "gm-1-kg",
+    "ratings": 4,
+    "review": "Satisfied by their professionalism ! Got my tea bags in time. Didn't have to pay any delivery charge. I can't believe that. Keep it up 4",
+    "ratingsCount": 3725,
+    "img": "./img/pic-6.jpg"
+  }
+]
