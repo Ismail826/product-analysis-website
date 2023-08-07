@@ -9,7 +9,7 @@ const Home = () => {
     const [review, setReview] = useReview([]);
     return (
         // Hero Section
-        <section className=" m-auto bg-contain">
+        <section className="m-auto">
             <div className="md:flex md:flex-row bg-cyan-100 justify-center">
 
                 <div className="md:w-2/5 md:flex md:flex-col justify-center space-x-20">
@@ -29,7 +29,7 @@ const Home = () => {
 
 
             <div className="mt-10">
-                <h1 className="align-items-center">Customer Review(3)</h1>
+                <h1 className="align-items-center text-3xl text-indigo-700">Customer Review(3)</h1>
                 <div className="md:grid md:grid-cols-3 md:content-center gap-8 ml-10">
                     {
                         review.slice(0, 3).map(customer => <ReviewDetails key={customer.id} customer={customer}></ReviewDetails>)

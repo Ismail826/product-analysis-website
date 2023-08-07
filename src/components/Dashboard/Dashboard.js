@@ -11,9 +11,10 @@ const Dashboard = () => {
             .then(data => setData(data));
     }, []);
     return (
-        <div className="grid grid-cols-2 border-8 my-10 mx-10 gap-10">
-            <div><h5 className="my-4 text-indigo-700 text-3xl">Month with Sell</h5>
-                <div className="">
+        <div className="grid grid-cols-2 border-8 my-3 mx-10 gap-10">
+            <div className="ml-40">
+                <h1 className="my-4 text-indigo-700 text-3xl text-start">Month with Sell</h1>
+                <div className="justify-content-center">
                     <LineChart width={350} height={250} data={data}>
                         <Line dataKey={'sell'}></Line>
                         <XAxis dataKey={"month"}></XAxis>
@@ -24,9 +25,9 @@ const Dashboard = () => {
 
             </div>
 
-            <div className=''>
-                <h1 className="my-4 text-indigo-700 text-3xl">Investment VS Revenue</h1>
-                <div>
+            <div>
+                <h1 className="my-4 text-indigo-700 text-3xl text-start">Investment VS Revenue</h1>
+                <div className="justify-content-center">
                     <AreaChart width={350} height={250} data={data} margin={{
                         top: 10,
                         right: 30,
@@ -44,10 +45,10 @@ const Dashboard = () => {
                 </div>
 
             </div>
-            <div>
-                <h1 className="my-4 text-indigo-700 text-3xl">Investment VS Revenue</h1>
+            <div className="ml-40">
+                <h1 className="my-4 text-indigo-700 text-3xl text-start">Investment VS Revenue</h1>
 
-                <div>
+                <div className="justify-content-center">
 
                     <BarChart
                         width={350}
@@ -70,9 +71,9 @@ const Dashboard = () => {
                 </div>
             </div>
             <div>
-                <h1 className="my-4 text-indigo-700 text-3xl">Investment VS Revenue</h1>
+                <h1 className="my-4 text-indigo-700 text-3xl text-start">Investment VS Revenue</h1>
 
-                <div>
+                <div className="justify-content-center">
                     <PieChart width={350} height={350}>
                         <Pie data={data} dataKey="investment" nameKey="month" cx="50%" cy="50%" outerRadius={60} fill="#8884d8" />
                         <Pie data={data} dataKey="revenue" nameKey="month" cx="50%" cy="50%" innerRadius={70} outerRadius={90} fill="#82ca9d" label />

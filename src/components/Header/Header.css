@@ -1,22 +1,19 @@
 .nav{
+    position: sticky;
 background-color:black;
 display: flex;
 margin-left: 10px 10px;
 padding:20px;
-
-
 justify-content: space-between;
 }
 
 .nav a{
     
-   margin-right:20px;
-    margin-top: 10px;
-    padding:20px;
-    text-decoration:none;
-    color: white;
-    
-
+margin-right:20px;
+margin-top: 10px;
+padding:20px;
+text-decoration:none;
+color: white;
 }
 
 .nav a:hover{

@@ -10,7 +10,7 @@ const ReviewDetails = ({customer}) => {
                     <div class="">
                         <h5 className="card-title text-2xl">{name}</h5>
                         <p className="card-title">Ratings:{ratings}</p>
-                    <p className="card-text bg-slate-200 pt-2">{review.slice(0, 150)}</p>
+                    <p className="card-text bg-slate-200 pt-2 text-start">{review.slice(0, 150)}</p>
                     </div>
             </div>
 
