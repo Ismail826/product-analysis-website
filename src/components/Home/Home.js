@@ -9,11 +9,11 @@ const Home = () => {
     const [review, setReview] = useReview([]);
     return (
         // Hero Section
-        <div className=" m-auto bg-contain">
-            <div className="md:flex md:flex-row bg-cyan-100">
+        <section className=" m-auto bg-contain">
+            <div className="md:flex md:flex-row bg-cyan-100 justify-center">
 
                 <div className="md:w-2/5 md:flex md:flex-col justify-center space-x-20">
-                    <h1 className="text-5xl ">Potato</h1>
+                    <h1 className="text-5xl">Potato</h1>
                     <h1 className="text-4xl text-cyan-500">Potato is a starchy Food</h1>
 
                     <p className="uppercase tracking-wide mb-2">The potato is a starchy food, a tuber of the plant Solanum tuberosum and is a root vegetable native to the Americas. The plant is a perennial in the nightshade family Solanaceae</p>
@@ -30,7 +30,7 @@ const Home = () => {
 
             <div className="mt-10">
                 <h1 className="align-items-center">Customer Review(3)</h1>
-                <div className="grid grid-cols-3 gap-8">
+                <div className="md:grid md:grid-cols-3 md:content-center gap-8 ml-10">
                     {
                         review.slice(0, 3).map(customer => <ReviewDetails key={customer.id} customer={customer}></ReviewDetails>)
                     }
@@ -43,8 +43,8 @@ const Home = () => {
                     See All Reviews
                 </Link>
             </div>
-        </div>
 
+        </section>
 
     );
 };
