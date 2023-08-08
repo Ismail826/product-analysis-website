@@ -13,7 +13,7 @@ const Dashboard = () => {
     return (
         <div className="grid grid-cols-2 border-8 my-3 mx-10 gap-10">
             <div className="ml-40">
-                <h1 className="my-4 text-indigo-700 text-3xl text-start">Month with Sell</h1>
+                <h1 className="my-4 text-indigo-700 text-3xl text-start uppercase">Month wise Sell</h1>
                 <div className="justify-content-center">
                     <LineChart width={350} height={250} data={data}>
                         <Line dataKey={'sell'}></Line>
@@ -38,8 +38,8 @@ const Dashboard = () => {
                         <XAxis dataKey="month" />
                         <YAxis />
                         <Tooltip />
-                        <Area type="monotone" dataKey="investment" stroke="#8884d8" fill="#8884d8" />
-                        <Area type="monotone" dataKey="revenue" stroke="#8884d8" fill="#8884d8" />
+                        <Area type="monotone" dataKey="investment" stackId="1" stroke="#8884d8" fill="#8884d8"/>
+                        <Area type="monotone" dataKey="revenue" stackId="1" stroke="#82ca9d" fill="#82ca9d" />
 
                     </AreaChart>
                 </div>
